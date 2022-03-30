@@ -2,7 +2,7 @@ const { UCS2_GENERAL_MYSQL500_CI } = require("mysql/lib/protocol/constants/chars
 
 const express = require("express"),
 app = express(),
-puerto = process.env.PORT || 3000, 
+puerto = 3000, 
 bodyParser = require("body-parser"),
 mysql = require("mysql"),
 myConnection = require("express-myconnection");
